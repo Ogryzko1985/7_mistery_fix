@@ -12,7 +12,7 @@ def get_roots(a, b, c):
     if discriminant < 0:
         root1 = None
         root2 = None
-    return root1, root2
+        return root1, root2
     else:
         root1 = (-b-sqrt(discriminant))/(2*a)
         root2 = (-b+sqrt(discriminant))/(2*a)
